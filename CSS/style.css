@@ -1,38 +1,54 @@
 body {
-    font-family: "Lunasima", sans-serif;
-    font-weight: 400;
-    background-color: rgba(12, 85, 153, 0.555);
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    background-color: rgb(183, 194, 199);
+    margin: 0;
+    height: 100vh;}
+
+
+
+.overall-container{
+    max-width: 1440px;
+    margin: 0 auto;   
+    padding: 3rem;
+    border: 1.5rem solid  #2B81AC;
+    background-color: #3399CC;
+    box-sizing: border-box;
+    text-align: center;
+    
 }
 
-.header-container {
-    max-width: 1166px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 34px;
-    margin-bottom: 34px;
+h1{
+    font-size: 21px;
+    text-align: left;
+    padding: 0 4rem;
+    color: white;
+    margin-bottom: 2.37rem;
 }
+
+ 
+
 
 .container {
     font-size: 0;
     /* Remove whitespace between inline-block elements */
-    max-width: 1166px;
-    width: 100%;
-    cursor: pointer;
-    margin: 0 auto;
+    max-width: 72.9rem;
+    height: 36.7rem;    
+    cursor: pointer;    
+    font-weight: 400;
+    margin: 4rem;    
+    border: 1.5px solid white;
+    
 }
 
 .container li {
     display: inline-block;
     margin: 0;
-    font-size: 16px;
-    /* Reset font size for paragraphs */
-    vertical-align: top;
-    /* Align elements to the top */
-    height: 147px;
+    vertical-align: middle;     
     color: white;
-    font-size: 22px;
+    font-size: 1.37rem;
     border: 1.5px solid white;
     box-sizing: border-box;
+    padding-top: 1.37rem;  
     
 
 }
@@ -45,40 +61,57 @@ li:hover{
     opacity: 3; /* Change opacity on hover */
 }
 
-.container-ul {
-    display: inline-block;
+.container-ul {    
     margin: 0;
     padding: 0;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2.19rem;
+    
+    
     
 }
 
 span.city {
     display: block;
     margin-bottom: 0;
-    line-height: 4rem;
-
+    line-height: 3.5rem;
 }
 
 span.temperature,
 img {
-    display: inline-block;
-    line-height: normal;
+    display: inline-block;   
     vertical-align: middle;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    
 
 }
 
-.div-footer {
-    
+.div-footer {    
     width: 100%;
     margin: 0 auto;
-    margin-top: 34px;
+    margin-top: 2.12rem;
 
 }
 
 .footer-paragraph {
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
+    text-align: left;
+    padding: 0 4rem; 
+}
+
+li {
+    display: inline-block;
+    height: 147px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 3px solid white;    
+    vertical-align: middle;
+}
+
+i {
+    font-size: 30px;
 }
 
 li:nth-child(1) {
@@ -91,12 +124,13 @@ li:nth-child(1) {
 
 li:nth-child(2) {
     background-color: #33CCCC;    
-    width: 25%;
+    
 
 }
 
 li:nth-child(3) {
     background-color: #996699;
+    
     
 }
 
@@ -112,7 +146,7 @@ li:nth-child(5) {
 
 li:nth-child(6) {
     background-color: #FFCC66;
-    width: 25%;
+   
 }
 
 li:nth-child(7) {
@@ -130,7 +164,7 @@ li:nth-child(9) {
     text-align: center;
     width: 50%;
     margin: 0;
-
+    
 }
 
 li:nth-child(10) {
